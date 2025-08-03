@@ -5,7 +5,7 @@
   "homepage": "./",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "npx tailwindcss -i ./src/input.css -o ./dist/output.css --minify && cp index.html ./dist/ && cp -r pages/ ./dist/pages/",
+    "build": "rm -rf dist && mkdir -p dist && npx tailwindcss -i ./src/input.css -o ./dist/output.css --minify && cp index.html ./dist/ && cp -r pages/ ./dist/pages/ && cp -r src/assets/ ./dist/assets/",
     "watch": "npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch"
   },
   "keywords": [],
