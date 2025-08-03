@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About Us - Iron Peak Fitness</title>
+  <link href="../dist/output.css" rel="stylesheet">
+</head>
+<body class="bg-gray-100">
+  <!-- Navigation -->
+  <nav class="bg-gray-800 text-white p-4">
+    <div class="container mx-auto flex justify-between items-center">
+      <span class="font-bold text-xl">Iron Peak</span>
+      
+      <div class="hidden md:flex space-x-4">
+        <a href="/" class="hover:text-yellow-400">Home</a>
+        <a href="/pages/about.html" class="hover:text-yellow-400">About</a>
+      </div>
+      
+      <button id="menu-btn" class="md:hidden focus:outline-none">
+        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+        </svg>
+      </button>
+    </div>
+    
+    <div id="mobile-menu" class="hidden md:hidden mt-4">
+      <div class="flex flex-col space-y-2">
+        <a href="/" class="block py-2 hover:text-yellow-400">Home</a>
+        <a href="/pages/about.html" class="block py-2 hover:text-yellow-400">About</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="bg-[url('/src/assets/images/hero2.jpeg')] bg-cover bg-center h-screen flex items-center">
+    <div class="container mx-auto text-center text-white px-4">
+      <h1 class="text-4xl md:text-5xl font-bold mb-4">OUR STORY</h1>
+      <p class="text-lg md:text-xl mb-8">10 years of transforming lives</p>
+    </div>
+  </section>
+
+  <!-- Second Section -->
+  <section class="py-20 bg-white">
+    <div class="container mx-auto px-4">
+      <h2 class="text-3xl font-bold text-center mb-12">WHY CHOOSE US</h2>
+      <div class="max-w-2xl mx-auto">
+        <p class="mb-6">Founded in 2013, Iron Peak Fitness has helped thousands of members achieve their fitness goals.</p>
+        <p class="mb-6">Our certified trainers and state-of-the-art equipment make us the best choice for your fitness journey.</p>
+        <p>We believe in a holistic approach to health and wellness.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-gray-800 text-white p-6 text-center">
+    <p>© 2023 Iron Peak Fitness. All rights reserved.</p>
+  </footer>
+
+  <script src="/src/assets/js/script.js"></script>
+</body>
+</html>
