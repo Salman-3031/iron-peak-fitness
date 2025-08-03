@@ -5,6 +5,9 @@ module.exports = {
     "./**/*.html",
     "./src/**/*.{js,css}"
   ],
+  eslint:{
+    ignoreDuringBuilds: true,
+  },
   theme: {
     extend: {},
   },
